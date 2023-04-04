@@ -1,0 +1,106 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg__header {
+  background-image: url("/sources/img/header_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  height: 100vh;
+  position: relative;
+}
+
+.header__text img {
+  height: 150px;
+}
+.header__text {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  color: #a20606;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+.logo__letter {
+  font-weight: bold;
+  font-size: 45px;
+  margin: 0;
+}
+nav ul {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(57, 57, 57);
+  color: #fff;
+  padding: 20px 0 25px 0;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px 0 20px;
+}
+.aboutus__container {
+  height: 100vh;
+}
+.aboutus__container h2 {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.aboutus__container .about__text {
+  font-size: 20px;
+}
+
+.aboutus__container .header__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.profile__container .profile__img img {
+  height: 300px;
+}
+.profile__container {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.profile {
+  margin: 20px;
+  background-color: rgb(240, 240, 240);
+}
+.profile__info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+.profile__info p {
+  margin: 0;
+  margin-top: 10px;
+}
+.profile__info .name {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(125, 125, 125);
+}
+
+.profile__info .position {
+  font-size: 16px;
+  color: rgb(135, 135, 135);
+}
